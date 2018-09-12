@@ -254,66 +254,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="TAB">
-<packages>
-<package name="GATOR_MINI">
-<pad name="P1" x="0" y="4.826" drill="4.0005" diameter="5.08"/>
-<polygon width="0.254" layer="1">
-<vertex x="0" y="7.874" curve="90"/>
-<vertex x="-3.048" y="4.826"/>
-<vertex x="-3.048" y="0"/>
-<vertex x="3.048" y="0"/>
-<vertex x="3.048" y="4.826" curve="90"/>
-</polygon>
-<polygon width="0.254" layer="16">
-<vertex x="0" y="7.874" curve="90"/>
-<vertex x="-3.048" y="4.826"/>
-<vertex x="-3.048" y="0"/>
-<vertex x="3.048" y="0"/>
-<vertex x="3.048" y="4.826" curve="90"/>
-</polygon>
-<polygon width="0.254" layer="29">
-<vertex x="3.1496" y="-0.1016"/>
-<vertex x="-3.1496" y="-0.1016"/>
-<vertex x="-3.1496" y="4.9784" curve="-97.62815"/>
-<vertex x="0" y="7.9248" curve="-90"/>
-<vertex x="3.1496" y="5.08"/>
-</polygon>
-<polygon width="0.254" layer="30">
-<vertex x="3.175" y="-0.0508"/>
-<vertex x="-3.1242" y="-0.0508"/>
-<vertex x="-3.1242" y="5.0292" curve="-97.62815"/>
-<vertex x="0.0254" y="7.9756" curve="-90"/>
-<vertex x="3.175" y="5.1308"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="MICRO_BIT_GATOR_CLIP">
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
-<pin name="P$1" x="-2.54" y="0" visible="off" length="middle"/>
-<text x="0" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GATOR_MINI">
-<gates>
-<gate name="G$1" symbol="MICRO_BIT_GATOR_CLIP" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="GATOR_MINI">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
 <description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
 This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
@@ -8969,6 +8909,80 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="GATOR">
+<pad name="P$1" x="0" y="-6.096" drill="4.0005" diameter="5.08"/>
+<pad name="P$2" x="0" y="-0.254" drill="4.0005" diameter="5.08"/>
+<polygon width="0.254" layer="1">
+<vertex x="0" y="2.794" curve="90"/>
+<vertex x="-3.048" y="-0.254"/>
+<vertex x="-3.048" y="-10.16"/>
+<vertex x="3.048" y="-10.16"/>
+<vertex x="3.048" y="-0.254" curve="90"/>
+</polygon>
+<polygon width="0.254" layer="16">
+<vertex x="0" y="2.794" curve="90"/>
+<vertex x="-3.048" y="-0.254"/>
+<vertex x="-3.048" y="-10.16"/>
+<vertex x="3.048" y="-10.16"/>
+<vertex x="3.048" y="-0.254" curve="90"/>
+</polygon>
+<polygon width="0.254" layer="29">
+<vertex x="3.1496" y="-10.2616"/>
+<vertex x="-3.1496" y="-10.2616"/>
+<vertex x="-3.1496" y="-0.1016" curve="-97.62815"/>
+<vertex x="0" y="2.8448" curve="-90"/>
+<vertex x="3.1496" y="0"/>
+</polygon>
+<polygon width="0.254" layer="30">
+<vertex x="3.175" y="-10.2108"/>
+<vertex x="-3.1242" y="-10.2108"/>
+<vertex x="-3.1242" y="-0.0508" curve="-97.62815"/>
+<vertex x="0.0254" y="2.8956" curve="-90"/>
+<vertex x="3.175" y="0.0508"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="MICRO_BIT_GATOR_CLIP">
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="P$1" x="-2.54" y="0" visible="off" length="middle"/>
+<text x="0" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GATOR" prefix="J">
+<gates>
+<gate name="G$1" symbol="MICRO_BIT_GATOR_CLIP" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="GATOR">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1 P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8990,14 +9004,14 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="S2" library="SparkFun-Switches" deviceset="REED_SWITCH" device="-PTH-INSULATED"/>
 <part name="S3" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
 <part name="S4" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-12MM" value="MOMENTARY-SWITCH-SPST-SMD-12MM"/>
-<part name="U$10" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U$11" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U$12" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U$14" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U$15" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U$16" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U$17" library="TAB" deviceset="GATOR_MINI" device=""/>
-<part name="U$19" library="TAB" deviceset="GATOR_MINI" device=""/>
+<part name="U$10" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
+<part name="U$11" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
+<part name="U$12" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
+<part name="U$14" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
+<part name="U$15" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
+<part name="U$16" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
+<part name="U$17" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
+<part name="U$19" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
 </parts>
 <sheets>
 <sheet>
