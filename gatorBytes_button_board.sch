@@ -9017,7 +9017,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="170.18" y="10.16" size="2.54" layer="94" font="vector" ratio="15">M. West</text>
-<text x="238.76" y="7.62" size="1.778" layer="94" font="vector" ratio="15">v01</text>
+<text x="238.76" y="7.62" size="1.778" layer="94" font="vector" ratio="15">v10</text>
+<wire x1="81.28" y1="185.42" x2="81.28" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="81.28" y1="0" x2="83.82" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="83.82" y1="0" x2="81.28" y2="0" width="0.1524" layer="97" style="longdash"/>
+<wire x1="160.02" y1="185.42" x2="160.02" y2="35.56" width="0.1524" layer="97" style="longdash"/>
+<text x="35.56" y="152.4" size="1.778" layer="97" font="vector">Buttons</text>
+<text x="114.3" y="149.86" size="1.778" layer="97" font="vector">Reed Switch</text>
+<text x="195.58" y="149.86" size="1.778" layer="97" font="vector">Switch</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -9027,17 +9034,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FD3" gate="G$1" x="220.98" y="33.02"/>
 <instance part="FD4" gate="G$1" x="220.98" y="27.94"/>
 <instance part="LOGO1" gate="G$1" x="147.32" y="38.1"/>
-<instance part="LOGO2" gate="G$1" x="170.18" y="45.72"/>
+<instance part="LOGO2" gate="G$1" x="177.8" y="45.72"/>
 <instance part="S1" gate="G$1" x="40.64" y="129.54"/>
-<instance part="S2" gate="G$1" x="40.64" y="106.68"/>
-<instance part="S3" gate="1" x="40.64" y="83.82"/>
+<instance part="S2" gate="G$1" x="119.38" y="134.62"/>
+<instance part="S3" gate="1" x="200.66" y="137.16"/>
 <instance part="S4" gate="G$1" x="40.64" y="142.24"/>
 <instance part="U$10" gate="G$1" x="55.88" y="142.24"/>
 <instance part="U$11" gate="G$1" x="53.34" y="129.54"/>
-<instance part="U$12" gate="G$1" x="55.88" y="106.68"/>
-<instance part="U$14" gate="G$1" x="53.34" y="81.28"/>
-<instance part="U$15" gate="G$1" x="27.94" y="83.82" rot="MR0"/>
-<instance part="U$16" gate="G$1" x="27.94" y="106.68" rot="MR0"/>
+<instance part="U$12" gate="G$1" x="134.62" y="134.62"/>
+<instance part="U$14" gate="G$1" x="213.36" y="134.62"/>
+<instance part="U$15" gate="G$1" x="187.96" y="137.16" rot="MR0"/>
+<instance part="U$16" gate="G$1" x="106.68" y="134.62" rot="MR0"/>
 <instance part="U$17" gate="G$1" x="27.94" y="129.54" rot="MR0"/>
 <instance part="U$19" gate="G$1" x="27.94" y="142.24" rot="MR0"/>
 </instances>
@@ -9075,34 +9082,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$5" class="0">
 <segment>
 <pinref part="S2" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="106.68" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="134.62" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U$16" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="S2" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="106.68" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="134.62" x2="132.08" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="S3" gate="1" pin="P"/>
-<wire x1="38.1" y1="83.82" x2="30.48" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="137.16" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="U$15" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="S3" gate="1" pin="O"/>
-<wire x1="45.72" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="S3" gate="1" pin="S"/>
-<wire x1="45.72" y1="81.28" x2="50.8" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="134.62" x2="210.82" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="P$1"/>
 </segment>
 </net>
