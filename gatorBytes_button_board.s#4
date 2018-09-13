@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8986,10 +8986,10 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="FD4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FIDUCIAL" device="UFIDUCIAL" package3d_urn="urn:adsk.eagle:package:37111/1"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="SFE_LOGO_FLAME" device=".1_INCH" package3d_urn="urn:adsk.eagle:package:37114/1"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="OSHW-LOGO" device="S" package3d_urn="urn:adsk.eagle:package:37099/1"/>
-<part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-12MM" value="MOMENTARY-SWITCH-SPST-SMD-12MM"/>
+<part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-12MM"/>
 <part name="S2" library="SparkFun-Switches" deviceset="REED_SWITCH" device="-PTH-INSULATED"/>
-<part name="S3" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-AYZ0202"/>
-<part name="S4" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-12MM" value="MOMENTARY-SWITCH-SPST-SMD-12MM"/>
+<part name="S3" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-KIT"/>
+<part name="S4" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-12MM"/>
 <part name="U$10" library="TAB" deviceset="GATOR_MINI" device=""/>
 <part name="U$11" library="TAB" deviceset="GATOR_MINI" device=""/>
 <part name="U$12" library="TAB" deviceset="GATOR_MINI" device=""/>

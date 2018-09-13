@@ -160,7 +160,7 @@
 <wire x1="99.06" y1="0" x2="1.27" y2="0" width="0.2032" layer="20"/>
 <text x="97.79" y="0" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
 <text x="49.53" y="-9.525" size="1.778" layer="51" font="vector" ratio="15">M. West</text>
-<text x="6.4135" y="4.7625" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
+<text x="6.4135" y="4.7625" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
 <text x="4.15925" y="-31.1785" size="2.54" layer="51">Solder Mask: Black Gloss</text>
 <wire x1="21.59" y1="48.895" x2="22.86" y2="47.625" width="0.2032" layer="20" curve="-90"/>
 <wire x1="22.86" y1="6.985" x2="21.59" y2="5.715" width="0.2032" layer="20" curve="-90"/>
@@ -219,14 +219,14 @@
 <wire x1="24.13" y1="28.575" x2="24.13" y2="48.895" width="0.2032" layer="51"/>
 <wire x1="24.13" y1="48.895" x2="22.86" y2="50.165" width="0.2032" layer="51" curve="90"/>
 <wire x1="22.86" y1="50.165" x2="15.24" y2="50.165" width="0.2032" layer="51"/>
-<text x="16.5735" y="4.7625" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
-<text x="4.7625" y="14.6685" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="23.8125" y="15.9385" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="4.7625" y="29.9085" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="23.8125" y="29.9085" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="16.5735" y="49.2125" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
-<text x="11.3665" y="49.8475" size="0.8128" layer="51" font="vector" ratio="15" rot="R180">route out</text>
-<text x="30.5435" y="4.7625" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
+<text x="16.5735" y="4.7625" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
+<text x="4.7625" y="14.6685" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="23.8125" y="15.9385" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="4.7625" y="29.9085" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="23.8125" y="29.9085" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="16.5735" y="49.2125" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
+<text x="11.3665" y="49.8475" size="0.8128" layer="20" font="vector" ratio="15" rot="R180">route out</text>
+<text x="30.5435" y="4.7625" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
 <wire x1="45.72" y1="48.895" x2="46.99" y2="47.625" width="0.2032" layer="20" curve="-90"/>
 <wire x1="46.99" y1="6.985" x2="45.72" y2="5.715" width="0.2032" layer="20" curve="-90"/>
 <wire x1="30.48" y1="5.715" x2="29.21" y2="6.985" width="0.2032" layer="20" curve="-90"/>
@@ -284,14 +284,14 @@
 <wire x1="48.26" y1="28.575" x2="48.26" y2="48.895" width="0.2032" layer="51"/>
 <wire x1="48.26" y1="48.895" x2="46.99" y2="50.165" width="0.2032" layer="51" curve="90"/>
 <wire x1="46.99" y1="50.165" x2="39.37" y2="50.165" width="0.2032" layer="51"/>
-<text x="40.7035" y="4.7625" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
-<text x="28.8925" y="14.6685" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="47.9425" y="15.9385" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="28.8925" y="29.9085" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="47.9425" y="29.9085" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="40.7035" y="49.2125" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
-<text x="35.4965" y="49.8475" size="0.8128" layer="51" font="vector" ratio="15" rot="R180">route out</text>
-<text x="54.6735" y="7.3025" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
+<text x="40.7035" y="4.7625" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
+<text x="28.8925" y="14.6685" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="47.9425" y="15.9385" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="28.8925" y="29.9085" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="47.9425" y="29.9085" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="40.7035" y="49.2125" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
+<text x="35.4965" y="49.8475" size="0.8128" layer="20" font="vector" ratio="15" rot="R180">route out</text>
+<text x="54.6735" y="7.3025" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
 <wire x1="69.85" y1="46.355" x2="71.12" y2="45.085" width="0.2032" layer="20" curve="-90"/>
 <wire x1="71.12" y1="9.525" x2="69.85" y2="8.255" width="0.2032" layer="20" curve="-90"/>
 <wire x1="54.61" y1="8.255" x2="53.34" y2="9.525" width="0.2032" layer="20" curve="-90"/>
@@ -349,14 +349,14 @@
 <wire x1="72.39" y1="28.575" x2="72.39" y2="46.355" width="0.2032" layer="51"/>
 <wire x1="72.39" y1="46.355" x2="71.12" y2="47.625" width="0.2032" layer="51" curve="90"/>
 <wire x1="71.12" y1="47.625" x2="63.5" y2="47.625" width="0.2032" layer="51"/>
-<text x="64.8335" y="7.3025" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
-<text x="53.0225" y="17.2085" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="72.0725" y="18.4785" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="53.0225" y="29.9085" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="72.0725" y="29.9085" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="64.8335" y="46.6725" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
-<text x="59.6265" y="47.3075" size="0.8128" layer="51" font="vector" ratio="15" rot="R180">route out</text>
-<text x="78.8035" y="2.2225" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
+<text x="64.8335" y="7.3025" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
+<text x="53.0225" y="17.2085" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="72.0725" y="18.4785" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="53.0225" y="29.9085" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="72.0725" y="29.9085" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="64.8335" y="46.6725" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
+<text x="59.6265" y="47.3075" size="0.8128" layer="20" font="vector" ratio="15" rot="R180">route out</text>
+<text x="78.8035" y="2.2225" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
 <wire x1="93.98" y1="51.435" x2="95.25" y2="50.165" width="0.2032" layer="20" curve="-90"/>
 <wire x1="95.25" y1="4.445" x2="93.98" y2="3.175" width="0.2032" layer="20" curve="-90"/>
 <wire x1="78.74" y1="3.175" x2="77.47" y2="4.445" width="0.2032" layer="20" curve="-90"/>
@@ -414,13 +414,13 @@
 <wire x1="96.52" y1="28.575" x2="96.52" y2="51.435" width="0.2032" layer="51"/>
 <wire x1="96.52" y1="51.435" x2="95.25" y2="52.705" width="0.2032" layer="51" curve="90"/>
 <wire x1="95.25" y1="52.705" x2="87.63" y2="52.705" width="0.2032" layer="51"/>
-<text x="88.9635" y="2.2225" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
-<text x="77.1525" y="18.4785" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="96.2025" y="19.7485" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="77.1525" y="29.9085" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="96.2025" y="29.9085" size="0.8128" layer="51" font="vector" ratio="15" rot="R90">route out</text>
-<text x="88.9635" y="51.7525" size="0.8128" layer="51" font="vector" ratio="15">route out</text>
-<text x="83.7565" y="52.3875" size="0.8128" layer="51" font="vector" ratio="15" rot="R180">route out</text>
+<text x="88.9635" y="2.2225" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
+<text x="77.1525" y="18.4785" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="96.2025" y="19.7485" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="77.1525" y="29.9085" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="96.2025" y="29.9085" size="0.8128" layer="20" font="vector" ratio="15" rot="R90">route out</text>
+<text x="88.9635" y="51.7525" size="0.8128" layer="20" font="vector" ratio="15">route out</text>
+<text x="83.7565" y="52.3875" size="0.8128" layer="20" font="vector" ratio="15" rot="R180">route out</text>
 <hole x="53.34" y="26.797" drill="0.381"/>
 <hole x="53.34" y="27.813" drill="0.381"/>
 <hole x="46.99" y="26.797" drill="0.381"/>
@@ -454,6 +454,7 @@
 <hole x="71.12" y="26.797" drill="0.381"/>
 <hole x="96.52" y="27.813" drill="0.381"/>
 <hole x="96.52" y="26.797" drill="0.381"/>
+<text x="48.514" y="-11.684" size="1.778" layer="51" font="vector" ratio="15">A. England</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1555,6 +1556,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="8.41" y="4.65"/>
 <vertex x="8.33" y="4.74"/>
 </polygon>
+</package>
+<package name="REVISION">
+<description>&lt;h3&gt;"Revision By" Text - tDoc&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
 </package>
 </packages>
 </library>
@@ -4986,8 +4994,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$20" library="buzzard_labels (3)" package="REED6" value="" x="81.28" y="19.685" rot="MR90"/>
 <element name="U$21" library="buzzard_labels (3)" package="SWITCH5" value="" x="81.28" y="26.035" rot="MR90"/>
 <element name="U$22" library="gator#PNG (6)" package="GATOR#PNG" value="" x="68.5165" y="3.6195"/>
-<element name="U$23" library="buzzard_labels (5)" package="GATOR#CONTROL0" value="" x="38.1" y="52.705"/>
+<element name="U$23" library="buzzard_labels (5)" package="GATOR#CONTROL0" value="" x="49.53" y="51.435"/>
 <element name="U$24" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="51.689" y="1.27"/>
+<element name="LOGO9" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="33.782" y="-11.557"/>
 </elements>
 <signals>
 <signal name="N$1">

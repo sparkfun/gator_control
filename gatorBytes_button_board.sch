@@ -179,6 +179,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
 &lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 </package>
+<package name="REVISION">
+<description>&lt;h3&gt;"Revision By" Text - tDoc&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME-LETTER">
@@ -227,6 +234,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.54" y="24.13" size="1.9304" layer="94"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="1.27" y="11.43" size="2.54" layer="94">Design by:</text>
 </symbol>
+<symbol name="REVISION">
+<description>&lt;h3&gt;"Revision By" Text - Symbol&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="0" y="0" size="2.54" layer="94">Revision By: </text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -248,6 +262,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DESIGNER" value="Nobody" constant="no"/>
 <attribute name="VERSION" value="v01" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REVISION" prefix="LOGO">
+<description>&lt;h3&gt;"Revision By" Text&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation. Includes schematic text on "symbols" layer, and board text on tDoc.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="REVISION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REVISION">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -9012,11 +9040,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$16" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
 <part name="U$17" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
 <part name="U$19" library="SparkFun-Connectors" deviceset="GATOR" device=""/>
+<part name="LOGO9" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="170.18" y="10.16" size="2.54" layer="94" font="vector" ratio="15">M. West</text>
+<text x="165.862" y="11.43" size="2.54" layer="94" font="vector" ratio="15">M. West</text>
 <text x="238.76" y="7.62" size="1.778" layer="94" font="vector" ratio="15">v10</text>
 <wire x1="81.28" y1="185.42" x2="81.28" y2="0" width="0.1524" layer="97" style="longdash"/>
 <wire x1="81.28" y1="0" x2="83.82" y2="0" width="0.1524" layer="97" style="longdash"/>
@@ -9025,6 +9054,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="35.56" y="152.4" size="1.778" layer="97" font="vector">Buttons</text>
 <text x="114.3" y="149.86" size="1.778" layer="97" font="vector">Reed Switch</text>
 <text x="195.58" y="149.86" size="1.778" layer="97" font="vector">Switch</text>
+<text x="169.418" y="6.858" size="2.54" layer="94" font="vector" ratio="15">A. England</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -9047,6 +9077,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$16" gate="G$1" x="106.68" y="134.62" rot="MR0"/>
 <instance part="U$17" gate="G$1" x="27.94" y="129.54" rot="MR0"/>
 <instance part="U$19" gate="G$1" x="27.94" y="142.24" rot="MR0"/>
+<instance part="LOGO9" gate="G$1" x="148.59" y="7.112"/>
 </instances>
 <busses>
 </busses>
