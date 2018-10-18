@@ -15,7 +15,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/gatorcontrol-protosnap-hookup-guide)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/gatorcontrol-protosnap-hookup-guide)** - Basic hookup guide for the gator:control.
 
 Product Versions
 ----------------
