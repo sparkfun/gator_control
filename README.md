@@ -1,7 +1,7 @@
 SparkFun gator:control
 ========================================
 
-![SparkFun gator:control](https://cdn.sparkfun.com/r/600-600/assets/learn_tutorials/8/2/2/COM-14968-1_micro-bit_gator-control_button_switches.jpg)
+![SparkFun gator:control](https://cdn.sparkfun.com/r/600-600/assets/parts/1/3/2/6/5/COM-14968-1.jpg)
 
 [*SparkFun gator:control - COM-14968*](https://www.sparkfun.com/products/14968)
 
