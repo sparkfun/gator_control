@@ -1,4 +1,4 @@
-SparkFun gator:control
+SparkFun gator:control ProtoSnap
 ========================================
 
 ![SparkFun gator:control](https://cdn.sparkfun.com/r/600-600/assets/parts/1/3/2/6/5/COM-14968-1.jpg)
