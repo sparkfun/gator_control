@@ -9,7 +9,7 @@ The gator:control breaks out several buttons and switches into an alligator clip
 
 Repository Contents
 -------------------
-
+* **/Firmware** - Example code used in the gator:control. While they are compiled HEX codes, you can modify the example code once they are imported into MakeCode editor.
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Production panel files (.brd)
 
